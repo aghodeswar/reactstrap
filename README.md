@@ -56,10 +56,10 @@ To overrides default bootstrap variables, create `variables.scss` file
 Add variables.scss file before bootstrap.scss file.
 
  `// Override default variables before the import`
- `$import 'variables.scss';`
+ #### `$import 'variables.scss';`
 
 `// Import Bootstrap and its default variables`
-`@import '~bootstrap/scss/bootstrap.scss';`
+#### `@import '~bootstrap/scss/bootstrap.scss';`
 
 
 You can learn more in the https://create-react-app.dev/docs/adding-bootstrap
