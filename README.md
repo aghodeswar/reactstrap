@@ -40,20 +40,21 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 ## Learn More
 
 ### Adding Bootstrap
+Integrate Bootstrap-sass with React apps.
 
- Integrate Bootstrap with React apps.
- 
+
 The best way to consume React Bootstrap is via the npm package which you can install with `npm` 
 #### `npm install --save bootstrap`
 
+<br>
 To enable scss in Create React App you will need to install node-sass.
 #### `npm install --save node-sass`
 
-To customize Bootstrap, 
-rename a file called `src/App.css` to `src/App.scss` and import the Bootstrap source stylesheet. 
-
-To overrides default bootstrap variables, create `variables.scss` file
-Add variables.scss file before bootstrap.scss file.
+<br>
+To customize Bootstrap and import the Bootstrap source stylesheet in `App.scss` file, <br> rename a file called `src/App.css` to `src/App.scss`. 
+<br>
+Add variables.scss file before bootstrap.scss file to overrides default bootstrap variables, 
+create `variables.scss` file.
 
  `// Override default variables before the import`
  #### `$import 'variables.scss';`
