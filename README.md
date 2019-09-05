@@ -66,3 +66,32 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+
+
+### Adding Bootstrap
+
+ Integrate Bootstrap with React apps.
+ 
+ The best way to consume React Bootstrap is via the npm package which you can install with `npm`
+
+ ### `npm install --save bootstrap`
+
+To enable scss in Create React App you will need to install node-sass.
+
+### `npm install --save node-sass`
+
+To customize Bootstrap, 
+rename a file called `src/App.css` to `src/App.scss` and import the Bootstrap source stylesheet. 
+
+To overrides default bootstrap variables, create `variables.scss` file
+Add variables.scss file before bootstrap.scss file.
+
+### `// Override default variables before the import`
+### `$import 'variables.scss';`
+
+### `// Import Bootstrap and its default variables`
+### `@import '~bootstrap/scss/bootstrap.scss';`
+
+
+You can learn more in the `https://create-react-app.dev/docs/adding-bootstrap`

@@ -1,0 +1,15 @@
+@import 'sass/partial/variables';
+
+// Import Bootstrap and its default variables
+@import '~bootstrap/scss/bootstrap.scss';
+
+// Import our common scss and compoenent files
+@import 'sass/main.scss';
+
+.App {
+  text-align: center;
+  background-color: $page-bg-color;
+  min-height: $page-height;
+  display: block;
+  font-size: $base-font-size;  
+}
