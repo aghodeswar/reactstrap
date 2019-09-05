@@ -39,47 +39,15 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 ## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
-
-
-
 ### Adding Bootstrap
 
  Integrate Bootstrap with React apps.
  
  The best way to consume React Bootstrap is via the npm package which you can install with `npm`
-
- ### `npm install --save bootstrap`
+ `npm install --save bootstrap`
 
 To enable scss in Create React App you will need to install node-sass.
-
-### `npm install --save node-sass`
+`npm install --save node-sass`
 
 To customize Bootstrap, 
 rename a file called `src/App.css` to `src/App.scss` and import the Bootstrap source stylesheet. 
@@ -87,11 +55,11 @@ rename a file called `src/App.css` to `src/App.scss` and import the Bootstrap so
 To overrides default bootstrap variables, create `variables.scss` file
 Add variables.scss file before bootstrap.scss file.
 
-### `// Override default variables before the import`
-### `$import 'variables.scss';`
+ `// Override default variables before the import`
+ `$import 'variables.scss';`
 
-### `// Import Bootstrap and its default variables`
-### `@import '~bootstrap/scss/bootstrap.scss';`
+`// Import Bootstrap and its default variables`
+`@import '~bootstrap/scss/bootstrap.scss';`
 
 
-You can learn more in the `https://create-react-app.dev/docs/adding-bootstrap`
+You can learn more in the https://create-react-app.dev/docs/adding-bootstrap
