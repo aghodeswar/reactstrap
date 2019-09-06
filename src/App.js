@@ -26,7 +26,7 @@ function App() {
               {/* <h3>Deploying a React App to GitHub Pages</h3> */}
               <p>You can configure GitHub Pages to publish your site's source files from master, gh-pages, or a /docs folder on your master branch for Project Pages and other Pages sites that meet certain criteria.</p>
 
-              <p>for source code you can visit this demo repo : <a href="https://github.com/aghodeswar/reactstrap/tree/react-gh-pages">https://github.com/aghodeswar/reactstrap/tree/react-gh-pages</a></p>
+              <p><i class="fa fa-github" aria-hidden="true"></i>  <a href="https://github.com/aghodeswar/reactstrap/tree/react-gh-pages">View on GitHub</a></p>
 
 
               <p>for more details tutorial you can visit: <a href="https://github.com/gitname/react-gh-pages">https://github.com/gitname/react-gh-pages</a></p>              
