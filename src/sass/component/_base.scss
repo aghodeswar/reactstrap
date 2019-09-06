@@ -1,0 +1,22 @@
+.wrapper {
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;    
+}
+.main-container {    
+    margin: 0 auto;
+    padding: 0 20px;
+    
+    // min-width 1024px window width and more
+    @include rwd(1024) {
+        max-width: 1400px;
+        display: flex;
+        flex-flow:row nowrap;
+    }
+}
+.nav-spacer {
+    display: flex;
+    flex-direction: column;
+    min-height: calc(100vh - 50px);
+    padding-top: $nav-min-height;
+}

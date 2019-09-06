@@ -1,0 +1,9 @@
+.fixed-nav-wrapper {
+    background-color: $nav-bg-color;
+    color: $white;
+    min-height: $nav-min-height;
+    padding: ($spacer * .5) 0;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+}

@@ -1,9 +1,16 @@
 //page colors variables
-$page-bg-color:                                 #282c34;
+// $page-bg-color:                                 #282c34;
+$page-bg-color:                                 #fff;
+$nav-bg-color:                                  #282c34;
+$nav-min-height:                                  50px;
 
 //page height and width variables
 $page-height:                                   100vh;
 
+// Typography
+//page font family
+$font-family-noto-sans-tc:                      'Noto Sans TC', sans-serif;
+$font-family-base:                              $font-family-noto-sans-tc !default;
 
 //page font sizes variables
 $base-font-size:                                1rem;

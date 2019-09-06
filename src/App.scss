@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC:100,300,400,500,700,900&display=swap');
+
 @import 'sass/partial/variables';
 
 // Import Bootstrap and its default variables
@@ -6,10 +8,10 @@
 // Import our common scss and compoenent files
 @import 'sass/main.scss';
 
-.App {
-  text-align: center;
+.App {  
   background-color: $page-bg-color;
   min-height: $page-height;
   display: block;
   font-size: $base-font-size;  
+  font-weight: $font-weight-lighter;
 }
