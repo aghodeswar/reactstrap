@@ -10,7 +10,8 @@ $page-height:                                   100vh;
 // Typography
 //page font family
 $font-family-noto-sans-tc:                      'Noto Sans TC', sans-serif;
-$font-family-base:                              $font-family-noto-sans-tc !default;
+$font-family-roboto-slab:                       'Roboto Slab', serif;
+$font-family-base:                              $font-family-roboto-slab !default;
 
 //page font sizes variables
 $base-font-size:                                1rem;
